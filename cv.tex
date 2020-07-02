@@ -1,0 +1,298 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,8pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \
+
+%\usepackage{fullpage}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+% To reduce the height of the top margin uncomment: 
+%\addtolength{\voffset}{-2cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Xusheng \textsc{Chen}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & China  | 09 December 1993 \\
+\textsc{Address:} & Room 10 Front, 425U, Queen's Rd West, HK \\
+\textsc{Phone:} & +852 92390400\ \ \ \ +86 18240372748 \\
+\textsc{email:} & \href{mailto:michael.xschen@gmail.com}{michael.xschen@gmail.com} \ \ \href {xschen@cs.hku.hk}{xschen@cs.hku.hk}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+
+
+
+\begin{tabular}{rl}	
+
+
+
+\textsc{2017-Current} & MPhil in Computer Science, \textsc{The University of Hong Kong}\\
+& Field: System research.\\
+& Supervisor: Dr. Heming Cui.\\
+\\&\\
+
+\textsc{2012-2017} & Bachelor of Engineering in \textsc{Computer Science}, \textsc{The University of Hong Kong}\\
+& Major: Computer Science | Minor: Mathematics\\
+&\normalsize \textsc{cGPA}: 3.7/4.3 
+%\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}
+\\&\\
+%------------------------------------------------
+
+\textsc{Jan-Jun} 2015& Exchange Student at \textsc{}\textsc{University of California}, San Diego  \\
+& Major: Computer Science and Engineering \\
+&\normalsize \textsc{GPA}: 4.0/4.0 \\
+%\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams} 
+
+%------------------------------------------------
+
+\end{tabular}
+
+
+
+\section{Publications}
+
+
+\begin{itemize}
+    \item \textbf{PLOVER: Fast, Multi-core Scalable Virtual Machine Fault-tolerance}\\
+    Cheng Wang, \textbf{Xusheng Chen}, Weiwei Jia, Haoran Qiu, Boxuan Li, Shixiong Zhao, Heming Cui\\
+    \textit{Proceedings of The 15th USENIX Symposium on Networked Systems Design and Implementation 2018 (NSDI '18)}\\
+    \textbf{*Parallel First Author (annotated in the paper's first page footnote)}\\
+
+    \item \textbf{APUS: Fast and Scalable PAXOS on RDMA}\\
+    Cheng Wang, Jianyu Jiang, \textbf{Xusheng Chen}, Ning Yi, Heming Cui\\
+    \textit{Proceedings of the ACM Symposium on Cloud Computing (SOCC '17), 2017}\\
+
+    \item \textbf{Effectively Mitigating I/O Inactivity in vCPU Scheduling} \\
+    Weiwei Jia, Cheng Wang, \textbf{Xusheng Chen}, Jianchen Shan, Xiaowei Shang, Heming Cui, Xiaoning Ding, Luwei Cheng, F.C.M. Lau, Yuexuan Wang, Yuangang Wang \\
+    \textit{Proceedings of the 2018 USENIX Annual Technical Conference (ATC '18), 2018} \\
+    
+    \item \textbf{A Fast, General Storage Replication Protocol for Active-Active Virtual Machine Fault Tolerance} \\
+    Cheng Wang, \textbf{Xusheng Chen}, Zixu Wang, Youwei Zhu, Heming Cui\\
+    \textit{Proceedings of the IEEE 23rd International Conference on Parallel and Distributed Systems (ICPADS '17), 2017}\\
+
+\end{itemize}
+
+
+
+\section{Work Experience}
+
+
+\begin{tabular}{r|p{11cm}}
+
+\textsc{Sep 2016-Aug 2017} & Researcher Assistant at \textsc{the University of Hong Kong}\\
+& \footnotesize{Research topics: distributed consensus, fault tolerance, distributed transaction, cloud system scheduling.}\\
+\multicolumn{2}{c}{} \\
+
+
+
+
+\textsc{Dec 2015-Jul 2016} & Researcher Assistant at \textsc{Lenovo}, Hong Kong\\
+& \emph{Center of Cloud Computing \& Big Data} \\
+& \footnotesize{Developing a container/cluster management platform, based on Docker and written in Golang. User can apply for a n-node cluster through the Web-UI, with each node running as a docker container on the backend machines, together with Image management and status monitor features.} \\
+& \footnotesize{Responsible for the backend API and UI initially and took over the Scheduler and Orchestration parts later.}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Aug 2015-Nov 2015}  & Student Trianee at \textsc{HSBC}, Hong Kong \\
+& \emph{Central Change Delivery, HSBC Technology and Service}\\ 
+& \footnotesize{Helping project managers to manage the end-to-end delivery of "Change the Bank" initiatives for business--from the creation of business cases, to the post implementation cases, mainly the complicated project involving several departments of the bank./}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Aug 2015-Dec 2015} & IT Support at \textsc{Foodrocks}, Hong Kong \\
+& \footnotesize{A startup company by students from the University of Hong Kong, providing lunch delivery near the university and will expand the business to Central. }\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+
+\textsc{June 2014-Aug 2014} & Summer Intern at \textsc{Institute of Automation, Chinese Academy of Science}, Beijing\\
+& \emph{Laboratory of Complex Systems and Intelligence Science} \\
+& \footnotesize{Developed a JSP website as a user interface to the project about automatic remote sensor and agricultural internet of things, with MySQL database.}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships and Certificates}
+
+\begin{tabular}{rl}
+\textsc{Nov} 2014 & Lee Shaw Kee Scholarships\\
+2014-2015 & Dean's Honours List\\
+2015-2016 & Dean's Honours List \\
+2016-2017 & Dean's Honours List \\
+
+
+\end{tabular}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & Fluent\\
+
+\textsc{Chinese Mandarin:} & Mothertongue\\
+
+\textsc{Chinese Cantonese:} & Basic Knowledge\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Basic Knowledge: & php, Haskell, Latex, JSP, MS Office, MS Project, Hadoop\\
+
+Intermediate Knowledge: &  C/C++, Java, Golang, my\textsc{sql}, Linux, HTML\&CSS\&Javascript, MATLAB, OpenGL  \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Interested in Technology and Programming. \\ \\
+Joined the basketball team for mainland China students and won the champion among the 11 Universities in Hong Kong for 3 times (2013, 2015, 2016).\\ \\
+Helper in organizing the Orientation Camp for freshman in 2013. 
+
+%----------------------------------------------------------------------------------------
+
+% \newpage
+
+% %----------------------------------------------------------------------------------------
+% %	GRADE TABLES
+% %----------------------------------------------------------------------------------------
+
+% \par{\centering\Large \hypertarget{grds}{Bachelor of Engineering Grades}\par}\large{\centering (Major in Computer Science, Minor in Mathematics)\par}\normalsize
+
+
+% \begin{tabular}{lll}
+% \multicolumn{1}{c}{\textsc{Course Code}} & \textsc{Course Title}&\textsc{Grade}\\ \hline
+% \textbf{Computer Science Courses} \\
+% ENGG 1202 & Introduction to Computer Sciences & $A^+$\\
+% ENGG 1111 &  Computer Programming and Applications with C++ &$A^+$\\
+% COMP 2119 & Introduction to Data Structures and Algorithms & $A^+$\\
+% COMP 2120 & Introduction to Computer Organization & $A^+$\\
+% COMP 2121 & Discrete Mathematics & $A^+$\\
+% COMP 2123 & Programming Technology and Tools & $A$\\
+% COMP 2396 & Objected Oriented Programming and Java &$A^-$\\
+% COMP 3230 & Principles of Operating Systems & $A^+$\\
+% COMP 3270 & Artificial Intelligence & $A$\\
+% COMP 3278 & Introduction to Database Management &$A$\\
+% COMP 3297 & Introduction to Software Engineering & $A$\\
+% \\
+% \textbf{Mathematics Courses} \\ 
+% MATH 1851 & Calculus and Ordinary Differential Equations & $A^+$\\
+% MATH 1853 & Linear Algebra, Probability and Statistics & $A^+$\\
+% MATH 2101 & Linear Algebra I & $A$\\
+% MATH 2211 & Multivariable Calculus & $A$\\
+% MATH 3301 & Algebra I & $A$\\
+% \\
+% \textbf{Other Courses} \\
+% CCCH 9004 & Ideas and Images of the West in Late Imperial China & $B^-$\\
+% CCGL 9011 & Media in the Age of Globalization & $B^+$\\
+% CCHU 9021 & Critical Thinking in Contemporary Society & $B$\\
+% CCHU 9022 & Journey into Madness: Conceptions of Mental Health and Mental Illness & $B^-$\\
+% CCST 9017 & Hidden Order in Daily Life: A Mathematical Perspective  & $A$\\
+% CCST 9047 & The Age of Big Data & $B^+$\\
+% CAES 1000 & Core University English & $C$ \\
+% CUND 9003 & Cantonese for Non-Cantonese Speaking Students & $B$\\
+% ENGG 1201 & Introduction to Civil Engineering & $C^+$\\
+% ENGG 1203 & Introduction to Electric and Electrical Engineering & $A$\\
+% PHYS 1050 & Physics for Engineering Students & $A^+$\\
+% & &\\\cline{2-3}
+% &\textbf\textsc{GPA}&\textbf{3.73}
+% \end{tabular}
+
+% \bigskip
+
+% %------------------------------------------------
+
+% \bigskip
+
+% \par{\centering\Large \hypertarget{grds_usc}{Exchange Program at \textsc{University of California, San Diego}}\par}\normalsize
+
+% \begin{center}
+% \begin{tabular}{lll}
+% \multicolumn{1}{c}{\textsc{Course Code}} & \textsc{Course Title} & \textsc{Grade}\\ 
+% \hline
+% CSE 101 & Design and Analysis of Algorithm &$A^+$\\
+% CSE 105 & Introduction to Theory of Computation &$A^+$\\
+% CSE 123 & Computer Networks & $A$\\
+% CSE 152 & Introduction to Computer Vision & $A^+$\\
+% CSE 167 & Computer Graphics & $A^+$\\
+% MATH 171 & Introduction to Numerical Optimization: Linear Programming &$A^+$\\
+
+% & &\\\cline{2-3}
+% & \textsc{Gpa} & \textbf{4.0}
+% \end{tabular}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
