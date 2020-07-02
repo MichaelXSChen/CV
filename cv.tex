@@ -24,25 +24,25 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[a4paper,8pt]{article} % Default font size and paper size
+\usepackage[a4paper, total={6.5in, 10in}]{geometry}
+% \usepackage{fontspec} % For loading fonts
+% \defaultfontfeatures{Mapping=tex-text}
+% \setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
 
-\usepackage{fontspec} % For loading fonts
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
-
-\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
-
-\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
-
-%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \
-
-%\usepackage{fullpage}
-\usepackage[a4paper, total={6in, 10in}]{geometry}
+% \usepackage{xunicode}
+% \usepackage{xltxtra}
+\usepackage{url}
+\usepackage{parskip} % Formatting packages
+\usepackage{mathptmx}
+\newcommand{\authors}[1]{{\small \fontfamily{cmss}\selectfont #1}}
+\newcommand{\conference}[1]{\textit{\small \fontfamily{cmss}\selectfont #1}}
+\newcommand{\info}[1]{{\footnotesize \fontfamily{cmss}\selectfont #1}}
 % To reduce the height of the top margin uncomment: 
 %\addtolength{\voffset}{-2cm}
 
-\usepackage{hyperref} % Required for adding links	and customizing them
-\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+% \usepackage{hyperref} % Required for adding links	and customizing them
+% % \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+% \hypersetup{colorlinks,breaklinks,urlcolor=blue,linkcolor=blue} % Set link colors throughout the document
 
 \usepackage{titlesec} % Used to customize the \section command
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
@@ -52,146 +52,132 @@
 
 \pagestyle{empty} % Removes page numbering
 
-\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
-
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION
-%----------------------------------------------------------------------------------------
-
 \par{\centering{\Huge Xusheng \textsc{Chen}}\bigskip\par} % Your name
-
-\section{Personal Data}
-
-\begin{tabular}{rl}
-\textsc{Place and Date of Birth:} & China  | 09 December 1993 \\
-\textsc{Address:} & Room 10 Front, 425U, Queen's Rd West, HK \\
-\textsc{Phone:} & +852 92390400\ \ \ \ +86 18240372748 \\
-\textsc{email:} & \href{mailto:michael.xschen@gmail.com}{michael.xschen@gmail.com} \ \ \href {xschen@cs.hku.hk}{xschen@cs.hku.hk}
-\end{tabular}
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE 
-%----------------------------------------------------------------------------------------
-
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
 
 \section{Education}
 
+\begin{itemize}
 
+\item Ph.D candidate in Computer Science, The University of Hong Kong. \textsc{2017-Current}. \\
+{\footnotesize\fontfamily{cmss}\selectfont Supervisor: Dr. Heming Cui.} \\
+{\footnotesize\fontfamily{cmss}\selectfont Research interests: distributed systems, fault-tolerant protocols, distributed database and key-value store systems, machine learning training systems, blockchain.}
 
+\item Bachelor of Engineering in Computer Science, \textsc{The University of Hong Kong}, \textsc{2012-2017} \\
+{\footnotesize\fontfamily{cmss}\selectfont Major: Computer Science, Minor: Mathematics, \textsc{cGPA}: 3.7}
 
-\begin{tabular}{rl}	
-
-
-
-\textsc{2017-Current} & Ph.D in Computer Science, \textsc{The University of Hong Kong}\\
-& Research Interest: distributed systems, fault-tolerant protocols, distributed database and key-value store systems, machine learning tranining systems, blockchain\\
-& Supervisor: Dr. Heming Cui.\\
-\\&\\
-
-\textsc{2012-2017} & Bachelor of Engineering in \textsc{Computer Science}, \textsc{The University of Hong Kong}\\
-& Major: Computer Science | Minor: Mathematics\\
-&\normalsize \textsc{cGPA}: 3.7/4.3 
-%\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}
-\\&\\
-%------------------------------------------------
-
-\textsc{Jan-Jun} 2015& Exchange Student at \textsc{}\textsc{University of California}, San Diego  \\
-& Major: Computer Science and Engineering \\
-&\normalsize \textsc{GPA}: 4.0/4.0 \\
+\item Exchange student at \textsc{University of California}, San Diego, USA. \textsc{Jan-Jun}, 2015.  \\
+{\footnotesize\fontfamily{cmss}\selectfont Major: Computer Science and Engineering, \textsc{GPA}: 4.0 }
 %\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams} 
 
-%------------------------------------------------
 
-\end{tabular}
-
-
+\end{itemize}
 
 \section{Publications}
 
 
 \begin{itemize}
     \item \textbf{HAMS: High Availability for Distributed Machine Learning Service Graphs} \\ 
-    Shixiong Zhao, \textbf{Xusheng Chen}, Cheng Wang, Fanxin Li, Ji Qi, Heming Cui, Cheng Li, Sen Wang \\
-    \textit{Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN '20)}\\
-    \textbf{*Parallel First Author (annotated in the paper's first page)}\\
+    \authors{\textbf{Xusheng Chen}, Shixiong Zhao, Cheng Wang, Fanxin Li, Ji Qi, Heming Cui, Cheng Li, Sen Wang.}\\
+    \conference{Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN '20)}\\
+    \authors{\bf* Parallel First Author (annotated in the paper's first page)}\\
+    \info{Describes HAMS, an efficient fault-tolerence system for a distributed deployment graph consisting of machine learning serving models (some are stateful) with little performance overhead. HAMS is the first system that can correctly replicate the nondeterminism caused by GPU threads on running AI serving models. } \\
 
     \item \textbf{UPA: An Automated, Accurate and Efficient Differentially Private Big-data Mining System} \\ 
-    Tzs On Li, Jianyu Jiang, Ji Qi, Chi Chiu So, Jiacheng Ma, \textbf{Xusheng Chen}, Tianxiang Shen, Heming Cui, Yuexuan Wang, Peng Wang \\
-    \textit{Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN '20)}\\ 
+    \authors{Tzs On Li, Jianyu Jiang, Ji Qi, Chi Chiu So, Jiacheng Ma, \textbf{Xusheng Chen}, Tianxiang Shen, Heming Cui, Yuexuan Wang, Peng Wang} \\
+    \conference{Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN '20)}\\ 
+    \info{Describes UPA, the first automated, efficient and precise differentially private big-data mining system that can preserve individual privacy while supporting general Spark big-data queries.} \\
 
     \item \textbf{Uranus: Simple, Efficient SGX Programming and Its Applications} \\
-    Jianyu Jiang, \textbf{Xusheng Chen}, Tzs On Li, Cheng Wang, Tianxiang Shen, Shixiong Zhao, Heming Cui, Cho-Li Wang, Fengwei Zhang \\
-    \textit{Proceedings of the 15th ACM ASIA Conference on Computer and Communications Security (ASIACCS '20)} \\
+    \authors{Jianyu Jiang, \textbf{Xusheng Chen}, Tzs On Li, Cheng Wang, Tianxiang Shen, Shixiong Zhao, Heming Cui, Cho-Li Wang, Fengwei Zhang} \\
+    \conference{Proceedings of the 15th ACM ASIA Conference on Computer and Communications Security (ASIACCS '20)} \\
+    \info{Describes Uranus, the first SGX-compatible and Spark-compatible secure big-data computing system that can practically support typical big-data datasets with our new big-data aware Java memory reuse protocols.} \\
 
     \item \textbf{Fulva: Efficient Live Migration for In-memory Key-Value Stores with Zero Downtime} \\
-    Jiewen Hai, Cheng Wang, \textbf{Xusheng Chen}, Tsz On Li, Heming Cui \\ 
-    \textit{Proceedings of the 38th International Symposium on Reliable Distributed Systems (SRDS '19)} \\
-
+    \authors{Jiewen Hai, Cheng Wang, \textbf{Xusheng Chen}, Tsz On Li, Heming Cui} \\ 
+    \conference{Proceedings of the 38th International Symposium on Reliable Distributed Systems (SRDS '19)} \\
+    \info{Describes Fulva, an in-memory key-value store migration system that can almost pertain the store's normal-case performance with no downtime during migration.}
 
     \item \textbf{PLOVER: Fast, Multi-core Scalable Virtual Machine Fault-tolerance}\\
-    Cheng Wang, \textbf{Xusheng Chen}, Weiwei Jia, Haoran Qiu, Boxuan Li, Shixiong Zhao, Heming Cui\\
-    \textit{Proceedings of The 15th USENIX Symposium on Networked Systems Design and Implementation 2018 (NSDI '18)}\\
-    \textbf{*Parallel First Author (annotated in the paper's first page)}\\
+    \authors{\textbf{Xusheng Chen}, Cheng Wang, Weiwei Jia, Haoran Qiu, Boxuan Li, Shixiong Zhao, Heming Cui} \\
+    \conference{Proceedings of The 15th USENIX Symposium on Networked Systems Design and Implementation 2018 (NSDI '18)}\\
+    \authors{\textbf{*Parallel First Author (annotated in the paper's first page)}} \\
+    \info{Describes PLOVER, a multi-core scalable VM fault-tolerance system built on the Virtualized State Machine Replication (VSMR) concept.} \\
 
-    \item \textbf{APUS: Fast and Scalable PAXOS on RDMA}\\
-    Cheng Wang, Jianyu Jiang, \textbf{Xusheng Chen}, Ning Yi, Heming Cui\\
-    \textit{Proceedings of the ACM Symposium on Cloud Computing (SOCC '17), 2017}\\
+    \item \textbf{A Fast, General Storage Replication Protocol for Active-Active Virtual Machine Fault Tolerance} \\
+    \authors{Cheng Wang, \textbf{Xusheng Chen}, Zixu Wang, Youwei Zhu, Heming Cui} \\
+    \conference{Proceedings of the IEEE 23rd International Conference on Parallel and Distributed Systems (ICPADS '18), 2017}\\
+    \info{Describes Gannet, a replication protocol for efficiently replicating virtual machines} \\
 
     \item \textbf{Effectively Mitigating I/O Inactivity in vCPU Scheduling} \\
-    Weiwei Jia, Cheng Wang, \textbf{Xusheng Chen}, Jianchen Shan, Xiaowei Shang, Heming Cui, Xiaoning Ding, Luwei Cheng, F.C.M. Lau, Yuexuan Wang, Yuangang Wang \\
-    \textit{Proceedings of the 2018 USENIX Annual Technical Conference (ATC '18), 2018} \\
-    
-    \item \textbf{A Fast, General Storage Replication Protocol for Active-Active Virtual Machine Fault Tolerance} \\
-    Cheng Wang, \textbf{Xusheng Chen}, Zixu Wang, Youwei Zhu, Heming Cui\\
-    \textit{Proceedings of the IEEE 23rd International Conference on Parallel and Distributed Systems (ICPADS '17), 2017}\\
+    \authors{Weiwei Jia, Cheng Wang, \textbf{Xusheng Chen}, Jianchen Shan, Xiaowei Shang, Heming Cui, Xiaoning Ding, Luwei Cheng, F.C.M. Lau, Yuexuan Wang, Yuangang Wang} \\
+    \conference{Proceedings of the 2018 USENIX Annual Technical Conference (ATC '18), 2018} \\
+    \info{Describes vMigrator, a lightweight, easy to use tool that can effectively mitigate I/O inactivity in vCPU scheduling, greatly improving I/O performance in VMs.}\\
+
+    \item \textbf{APUS: Fast and Scalable PAXOS on RDMA}\\
+    \authors{Cheng Wang, Jianyu Jiang, \textbf{Xusheng Chen}, Ning Yi, Heming Cui}\\
+    \conference{Proceedings of the ACM Symposium on Cloud Computing (SOCC '17), 2017}\\
+    \info{Describes APUS, a fast Paxos protocol and its runtime system using fast RDMA features.} \\
+
+    \item \textbf{Eges: Efficient, DoS-resistant Consensus for Permissioned Blockchains.}
+    \authors{\textbf{Xusheng Chen}, Shixiong Zhao, Cheng Wang, Haoze Song, Jianyu Jiang, Ji Qi, Tsz On Li, T.-H. Hubert Chan, Heming Cui}. \\
+    \conference{Submitted to IEEE TDSC, under review}. \\
+    \info{Describes Edges, an efficient consensus protocol that can hide consensus nodes to defend against targeted DoS attacks in a large-scale permissioned blockchain system.} \\
+
+    \item \textbf{Chronos: Low-latency, Serializable Transaction Processing in Globally-distributed Edge Data Centers}
+    \authors{\textbf{Xusheng Chen}, Haoze Song, Jianyu Jiang, Heming Cui}. \\
+    \conference{Submitted, under review}. \\
+    \info{Describes Chronos, a fault-tolerant concurrency control protocol that achieves low tail latency and horizontal scalability gloably-distributed database deployed in edge data centers}.
 
 \end{itemize}
 
+\section{Technology Transfer (Patent)}
+\begin{itemize}
+\item A Distributed Fault-tolerant Storage System via Virtualized State Machine
+Replication. \\
+\authors{Cheng Wang, \textbf{Xusheng Chen}, Heming Cui, Weifeng Shen, Long Bai, and Shuzhan Bi}
+\conference{Submitted to the Patent Cooperation Treaty (PCT), World Intellectual
+Property Organization (WIPO). \\Huawei Ref No.: 85714660PCT01} \\
 
+\item An Efficient and DoS-resistant Consensus Protocol for Permissioned Blockchain Systems.\\
+\authors{\textbf{Xusheng Chen}, Shixiong Zhao, Cheng Wang, Jianyu Jiang, Heming Cui, Sen Wang, Peng Wang, Gong Zhang}\\
+\conference{Owned by Huawed Ltd. Ref No.: 202010247629.1} \\
+
+\item An Efficient Memory Management Approach for Trusted Execution Hardwares. \\
+\conference{Owned by Huawei Ltd. Ref No.: }
+\end{itemize}
 
 \section{Work Experience}
 
 
-\begin{tabular}{r|p{11cm}}
+\begin{itemize}
+\item Researcher Assistant at Center of Cloud Computing \& Big Data, Lenovo, Hong Kong. Dec 2015 - Jul 2016 \\
+\info{Developed a container/cluster management platform, based on Docker and written in Golang. User can apply for a n-node cluster through the Web-UI, with each node running as a docker container on the backend machines, together with Image management and status monitor features.} \\
 
 
-\textsc{Dec 2015-Jul 2016} & Researcher Assistant at \textsc{Lenovo}, Hong Kong\\
-& \emph{Center of Cloud Computing \& Big Data} \\
-& \footnotesize{Developing a container/cluster management platform, based on Docker and written in Golang. User can apply for a n-node cluster through the Web-UI, with each node running as a docker container on the backend machines, together with Image management and status monitor features.} \\
-& \footnotesize{Responsible for the backend API and UI initially and took over the Scheduler and Orchestration parts later.}\\
-\multicolumn{2}{c}{} \\
-
-\textsc{Aug 2015-Nov 2015}  & Student Trianee at \textsc{HSBC}, Hong Kong \\
-& \emph{Central Change Delivery, HSBC Technology and Service}\\ 
-& \footnotesize{Helping project managers to manage the end-to-end delivery of "Change the Bank" initiatives for business--from the creation of business cases, to the post implementation cases, mainly the complicated project involving several departments of the bank./}\\
-\multicolumn{2}{c}{} \\
+\item Student Trianee at Global Banking and Markets and HSBC, Hong Kong. Aug 2015 - Nov 2015 \\ 
+\info{Helped project managers to manage the end-to-end delivery of "Change the Bank" initiatives for business--from the creation of business cases, to the post implementation cases, mainly the complicated project involving several departments of the bank.}\\
 
 
-\textsc{June 2014-Aug 2014} & Summer Intern at \textsc{Institute of Automation, Chinese Academy of Science}, Beijing\\
-& \emph{Laboratory of Complex Systems and Intelligence Science} \\
-& \footnotesize{Developed a JSP website as a user interface to the project about automatic remote sensor and agricultural internet of things, with MySQL database.}\\
-\multicolumn{2}{c}{} \\
-\end{tabular}
+\item Summer Intern at Laboratory of Complex Systems and Intelligence Science,
+Institute of Automation, Chinese Academy of Science, Beijing. 
+June 2014 - Aug 2014.\\
+\info{Developed a front-end interface for an automatic remote sensor network and agricultural internet of things}.
+\end{itemize}
 
 
 %----------------------------------------------------------------------------------------
 %	SCHOLARSHIPS AND ADDITIONAL INFO
 %----------------------------------------------------------------------------------------
 
-\section{Scholarships and Certificates}
+\section{Others}
+\begin{itemize}
+\item Lee Shaw Kee Scholarships, 2014.
+\item Three times Deans Honours List, 2014-2015, 2015-2016, 2016-2017. 
+\item Two times project co-leader of Huawei Innovation Research Programs (HIRP).
+\item Two times Champion in the university basketball league in Hong Kong for mainland China students.
+\end{itemize}
 
-\begin{tabular}{rl}
-\textsc{Nov} 2014 & Lee Shaw Kee Scholarships\\
-2014-2015 & Dean's Honours List\\
-2015-2016 & Dean's Honours List \\
-2016-2017 & Dean's Honours List \\
 
-
-\end{tabular}
 
 % \section{Languages}
 
