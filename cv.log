@@ -1,0 +1,294 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  31 JAN 2021 22:03
+entering extended mode
+**c:/Users/micha/Documents/GitHub/CV/cv.tex
+(c:/Users/micha/Documents/GitHub/CV/cv.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> ("D:\Program Files (x86)\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("D:\Program Files (x86)\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) ("D:\Program Files (x86)\MiKTeX\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ ("D:\Program Files (x86)\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) ("D:\Program Files (x86)\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ ("D:\Program Files (x86)\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+ ("D:\Program Files (x86)\MiKTeX\tex/latex/geometry\geometry.cfg")) ("D:\Program Files (x86)\MiKTeX\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) ("D:\Program Files (x86)\MiKTeX\tex/latex/parskip\parskip.sty"
+Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+ ("D:\Program Files (x86)\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ ("D:\Program Files (x86)\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) ("D:\Program Files (x86)\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) ("D:\Program Files (x86)\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count188
+)) ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\mathptmx.sty"
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) ("D:\Program Files (x86)\MiKTeX\tex/latex/titlesec\titlesec.sty"
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box47
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen147
+\ttl@minus=\dimen148
+\ttl@toksa=\toks17
+\titlewidth=\dimen149
+\titlewidthlast=\dimen150
+\titlewidthfirst=\dimen151
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 51.
+ ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) ("D:\Program Files (x86)\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count189
+\l__pdf_internal_box=\box48
+)
+
+LaTeX Warning: Unused global option(s):
+    [8pt].
+
+(c:/Users\micha\Documents\GitHub\CV\cv.aux)
+\openout1 = `cv.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(45.80893pt, 505.89pt, 45.80894pt)
+* v-part:(T,H,B)=(48.93872pt, 722.7pt, 73.40813pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=505.89pt
+* \textheight=722.7pt
+* \oddsidemargin=-26.46106pt
+* \evensidemargin=-26.46106pt
+* \topmargin=-60.33127pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\big@size=\dimen152
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 60.
+("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd"
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 60.
+ ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\omlztmcm.fd"
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 60.
+ ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\omsztmcm.fd"
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 60.
+ ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\omxztmcm.fd"
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 72.
+ ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <9> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 92.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 92.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--144
+
+ []
+
+[1
+
+{C:/Users/micha/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 145--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--185
+
+ []
+
+[2] [3] (c:/Users\micha\Documents\GitHub\CV\cv.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2165 strings out of 479618
+ 32103 string characters out of 2872070
+ 329584 words of memory out of 3000000
+ 19328 multiletter control sequences out of 15000+200000
+ 427459 words of font info for 70 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,9n,74p,1226b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Program Files (x86)/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on c:/Users\micha\Documents\GitHub\CV\cv.pdf (3 pages, 107841 bytes).
+PDF statistics:
+ 41 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
