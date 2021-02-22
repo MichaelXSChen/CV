@@ -87,7 +87,7 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
 
 \section{Projects}
 \begin{itemize}[itemsep=0pt]
-    \item \textbf{A fault-tolerant large-scale distributed database for serializable transactions in edge computing.}
+    \item \textbf{Fault-tolerant large-scale distributed databases for serializable transactions in edge computing [2020-2021].}
         \authors{    
         \begin{itemize}[itemsep=-1mm]
             \item \textit{Summary:} we built DAST, the first fault-tolerant, large-scale distributed database that can ensure both 
@@ -95,28 +95,79 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
                 control protocol that addresses the convoy effect in existing geo-distributed database systems. 
             \item \textit{My tasks:}
                     \begin{enumerate}[itemsep=-1mm]
-                        \item Study existing distributed databases, summarize the key reasons why they fail to achieve low tail-latency, and drive the new concurrency control protocol. 
+                        \item Study existing distributed databases, summarize the key reasons why they fail to achieve low tail-latency, and derive the new concurrency control protocol. 
                         \item Implement the our new protocol and state-of-the-art protocols in an open-source database. Our protocol reduce the tail latency for up to 93.2\%. 
                     \end{enumerate}
-            \item \textit{Deliverables:} one paper accepted by EuroSys '21; one patent transferred to Huawei; code will be open-sourced soon.
+            \item \textit{Deliverables:} one paper accepted by EuroSys '21, one patent transferred to Huawei, code will be open-sourced soon (after patent submitted).
         \end{itemize}
         }
-    \item \textbf{A training/inference system for large machine learning model graphs.}
+    \item \textbf{Training/inference systems for large machine learning models [2019-now].}
         \authors{    
         \begin{itemize}[itemsep=-1mm]
             \item \textit{Summary:} we built a system that can train large
             ML models (e.g., BERT, AmoebaNet) efficiently with
-            pipeline-parallelism manner and can provide high-availability for
+            pipeline-parallelism manner, and can provide high-availability for
             ML service graphs consisting stateful models (e.g., LSTM).
             \item \textit{My tasks:}
                     \begin{enumerate}[itemsep=-1mm]
                         \item Design and implement the key protocol for non-stop layer migration in pipeline-parallel model training.
                         \item Design and implement the key protocol for non-stop replication of stateful ML models. 
                     \end{enumerate}
-            \item \textit{Deliverables:} one paper accepted by DSN '20; one paper submitted to TPDS '21 (minor revision); one patent transferred to Huawei; code released \url{github.com/hku-systems}. 
+            \item \textit{Deliverables:} one paper accepted by DSN '20, one paper submitted to TPDS '21 (minor revision), one patent transferred to Huawei, code released on \url{https://github.com/hku-systems}. 
         \end{itemize}
         }
-    \item 
+    \item \textbf{Efficient blockchain systems for Internet and datacenter networks [2017-now].}
+        \authors{    
+        \begin{itemize}[itemsep=-1mm]
+            \item \textit{Summary:} we built a new efficient, DoS-resistant, and
+            scalable 
+            consensus protocol leveraging Intel SGX 
+            for large-scale blockchains running on the Internet, and a 
+            highly-efficient execution framework for blockchains systems 
+            deployed among many data centers. 
+            \item \textit{My tasks:}
+                    \begin{enumerate}[itemsep=-1mm]
+                        \item Design the new consensus protocol and 
+                        the workflow of new execution framework.
+                        \item Implement the new consensus protocol on Ethereum codebase.
+                    \end{enumerate}
+            \item \textit{Deliverables:} one paper submitted to TPDS (under review), one paper submitted to OSDI (under review), two patents transferred to Huawei, code released on \url{https://github.com/hku-systems}. 
+        \end{itemize}
+        }
+    \item \textbf{Efficient and transparent fault-tolerant systems leveraging data center networks [2017-2019].}
+        \authors{    
+        \begin{itemize}[itemsep=-1mm]
+            \item \textit{Summary:} We leverage the network features 
+            (e.g., RDMA and DPDK) in datacenter networks to build 
+            highly-efficient fault-tolerant systems for server applications.
+            \item \textit{My tasks:}
+                    \begin{enumerate}[itemsep=-1mm]
+                        \item Design and optimize the consensus protocols used 
+                        in the fault-tolerant systems. 
+                        \item Implement the consensus protocol on QEMU and KVM.
+                    \end{enumerate}
+            \item \textit{Deliverables:} one paper accepted by SoCC '17, one paper 
+            accepted by NSDI '18, one paper accepted by ICPADS '18, one paper accepted 
+            by SRDS '19, one patent transferred to Huawei, code released on \url{https://github.com/hku-systems}. 
+        \end{itemize}
+        }   
+    \item \textbf{Efficient and secure big data computation systems using TEEs [2017-2019].}
+    \authors{    
+        \begin{itemize}[itemsep=-1mm]
+            \item \textit{Summary:} We built a secure JVM leveraging TEEs (e.g., Intel SGX) to 
+            provide computational integrity and data privacy for big data computation 
+            frameworks (e.g., Spark) and ML model training.
+            
+            \item \textit{My tasks:}
+                    \begin{enumerate}[itemsep=-1mm]
+                        \item Design and implement the protocol
+                        for loading, verification, and attestation of 
+                        of trusted code into TEE enclaves.
+                    \end{enumerate}
+            \item \textit{Deliverables:} one paper accepted by ASIACCS '19, one paper accepted
+            by TDSC '20, two patents transferred to Huawei, code released on \url{https://github.com/hku-systems}. 
+        \end{itemize}
+        }   
 \end{itemize}
 
 
