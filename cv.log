@@ -1,37 +1,40 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  31 JAN 2021 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.21)  8 AUG 2021 12:07
 entering extended mode
-**c:/Users/micha/Documents/GitHub/CV/cv.tex
-(c:/Users/micha/Documents/GitHub/CV/cv.tex
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/xusheng/codes/CV/cv.tex
+(/Users/xusheng/codes/CV/cv.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-01-09> xparse <2020-03-03> ("D:\Program Files (x86)\MiKTeX\tex/latex/base\article.cls"
+L3 programming layer <2021-05-11> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-("D:\Program Files (x86)\MiKTeX\tex/latex/base\size10.clo"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count177
-\c@section=\count178
-\c@subsection=\count179
-\c@subsubsection=\count180
-\c@paragraph=\count181
-\c@subparagraph=\count182
-\c@figure=\count183
-\c@table=\count184
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) ("D:\Program Files (x86)\MiKTeX\tex/latex/geometry\geometry.sty"
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- ("D:\Program Files (x86)\MiKTeX\tex/latex/graphics\keyval.sty"
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-) ("D:\Program Files (x86)\MiKTeX\tex/generic/iftex\ifvtex.sty"
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- ("D:\Program Files (x86)\MiKTeX\tex/generic/iftex\iftex.sty"
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count185
-\Gm@cntv=\count186
-\c@Gm@tempcnt=\count187
+\Gm@cnth=\count187
+\Gm@cntv=\count188
+\c@Gm@tempcnt=\count189
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -41,21 +44,21 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks16
- ("D:\Program Files (x86)\MiKTeX\tex/latex/geometry\geometry.cfg")) ("D:\Program Files (x86)\MiKTeX\tex/latex/url\url.sty"
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) ("D:\Program Files (x86)\MiKTeX\tex/latex/parskip\parskip.sty"
-Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
- ("D:\Program Files (x86)\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
- ("D:\Program Files (x86)\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty"
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) ("D:\Program Files (x86)\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty"
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) ("D:\Program Files (x86)\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count188
-)) ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\mathptmx.sty"
+\etb@tempcnta=\count190
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -90,7 +93,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-) ("D:\Program Files (x86)\MiKTeX\tex/latex/titlesec\titlesec.sty"
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box47
 \beforetitleunit=\skip49
@@ -103,18 +106,18 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthfirst=\dimen151
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 51.
- ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\ot1ptm.fd"
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) ("D:\Program Files (x86)\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
-File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count189
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count191
 \l__pdf_internal_box=\box48
 )
 
 LaTeX Warning: Unused global option(s):
     [8pt].
 
-(c:/Users\micha\Documents\GitHub\CV\cv.aux)
+(./cv.aux)
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -168,19 +171,19 @@ LaTeX Font Info:    ... okay on input line 51.
 
 \big@size=\dimen152
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 60.
-("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 60.
- ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\omlztmcm.fd"
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 60.
- ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\omsztmcm.fd"
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 60.
- ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\omxztmcm.fd"
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
@@ -190,105 +193,106 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 72.
- ("D:\Program Files (x86)\MiKTeX\tex/latex/psnfss\ts1ptm.fd"
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 92.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 94.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 92.
+(Font)              using `OT1/cmss/bx/n' instead on input line 94.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--109
+Underfull \hbox (badness 10000) in paragraph at lines 91--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--120
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--128
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--136
+Underfull \hbox (badness 10000) in paragraph at lines 111--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--144
+Underfull \hbox (badness 10000) in paragraph at lines 120--129
 
  []
 
 [1
 
-{C:/Users/micha/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 145--151
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 131--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--156
+Underfull \hbox (badness 10000) in paragraph at lines 141--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--161
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--166
+Underfull \hbox (badness 10000) in paragraph at lines 157--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--171
+Underfull \hbox (badness 10000) in paragraph at lines 165--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--175
+Underfull \hbox (badness 10000) in paragraph at lines 172--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
+Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--185
+Underfull \hbox (badness 10000) in paragraph at lines 182--186
 
  []
 
-[2] [3] (c:/Users\micha\Documents\GitHub\CV\cv.aux)
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 188--191
+
+ []
+
+[3] (./cv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2165 strings out of 479618
- 32103 string characters out of 2872070
- 329584 words of memory out of 3000000
- 19328 multiletter control sequences out of 15000+200000
- 427459 words of font info for 70 fonts, out of 3000000 for 9000
+ 2175 strings out of 478836
+ 32315 string characters out of 5855599
+ 348344 words of memory out of 5000000
+ 19811 multiletter control sequences out of 15000+600000
+ 427459 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,9n,74p,1226b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Program Files (x86)/MiKTeX/fonts/enc/dvips/base/8r.enc}<D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on c:/Users\micha\Documents\GitHub\CV\cv.pdf (3 pages, 107841 bytes).
+ 55i,9n,62p,1215b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on cv.pdf (3 pages, 104123 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
