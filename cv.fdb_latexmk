@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1628395673 "/Users/xusheng/codes/CV/cv.tex" "cv.pdf" "cv" 1628395674
-  "/Users/xusheng/codes/CV/cv.tex" 1628395672 19164 9ba4ce3110a4174c35b586282c69307f ""
+["pdflatex"] 1628584867 "/Users/xusheng/codes/CV/cv.tex" "cv.pdf" "cv" 1628584915
+  "/Users/xusheng/codes/CV/cv.tex" 1628584915 19538 0e5ff43e6cb3d8ed3a8d7524558d819c ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -39,6 +39,7 @@
   "/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty" 1600895880 17859 4409f8f50cd365c68e684407e5350b1b ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls" 1601675358 20145 aad8c3dd3bc36e260347b84002182bc2 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo" 1601675358 8449 a72d5d4e612221b46000c3d71724e0ef ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty" 1580683321 2590 e3b24ff953e5b58d924f163d25380312 ""
@@ -58,9 +59,9 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1621562075 5178034 d18952d23278334ee1d4da4e26b03267 ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1621562136 2737570 45e46de074692668ee6ddf05d6c162ce ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "cv.aux" 1628395674 576 1ecae11a1b704d5df75eaf9eced0636a "pdflatex"
-  "cv.tex" 1628395672 19164 9ba4ce3110a4174c35b586282c69307f ""
+  "cv.aux" 1628584869 576 1ecae11a1b704d5df75eaf9eced0636a "pdflatex"
+  "cv.tex" 1628584915 19538 0e5ff43e6cb3d8ed3a8d7524558d819c ""
   (generated)
+  "cv.pdf"
   "cv.log"
   "cv.aux"
-  "cv.pdf"

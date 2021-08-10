@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.21)  8 AUG 2021 12:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.21)  10 AUG 2021 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -93,47 +93,55 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen147
+\enit@toks=\toks17
+\enit@inbox=\box47
+\enit@count@id=\count191
+\enitdp@description=\count192
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box47
-\beforetitleunit=\skip49
-\aftertitleunit=\skip50
-\ttl@plus=\dimen147
-\ttl@minus=\dimen148
-\ttl@toksa=\toks17
-\titlewidth=\dimen149
-\titlewidthlast=\dimen150
-\titlewidthfirst=\dimen151
+\ttl@box=\box48
+\beforetitleunit=\skip50
+\aftertitleunit=\skip51
+\ttl@plus=\dimen148
+\ttl@minus=\dimen149
+\ttl@toksa=\toks18
+\titlewidth=\dimen150
+\titlewidthlast=\dimen151
+\titlewidthfirst=\dimen152
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 51.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 53.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count191
-\l__pdf_internal_box=\box48
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box49
 )
 
 LaTeX Warning: Unused global option(s):
-    [8pt].
+    [7pt].
 
 (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -143,14 +151,14 @@ LaTeX Font Info:    ... okay on input line 51.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(45.80893pt, 505.89pt, 45.80894pt)
+* h-part:(L,W,R)=(27.74144pt, 542.025pt, 27.74144pt)
 * v-part:(T,H,B)=(48.93872pt, 722.7pt, 73.40813pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=505.89pt
+* \textwidth=542.025pt
 * \textheight=722.7pt
-* \oddsidemargin=-26.46106pt
-* \evensidemargin=-26.46106pt
+* \oddsidemargin=-44.52855pt
+* \evensidemargin=-44.52855pt
 * \topmargin=-60.33127pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -169,94 +177,89 @@ LaTeX Font Info:    ... okay on input line 51.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\big@size=\dimen152
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 60.
+\big@size=\dimen153
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 65.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 60.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 65.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 60.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 65.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 60.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 65.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 77.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 94.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 99.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 94.
+(Font)              using `OT1/cmss/bx/n' instead on input line 99.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--103
+Underfull \hbox (badness 10000) in paragraph at lines 96--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--109
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--118
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--129
+Underfull \hbox (badness 10000) in paragraph at lines 116--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--134
 
  []
 
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 131--140
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--148
+Underfull \hbox (badness 10000) in paragraph at lines 146--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--164
+Underfull \hbox (badness 10000) in paragraph at lines 162--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
+Underfull \hbox (badness 10000) in paragraph at lines 170--176
 
  []
 
@@ -270,26 +273,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--186
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 188--191
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
 
  []
 
-[3] (./cv.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
+
+ []
+
+[2] [3] (./cv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2175 strings out of 478836
- 32315 string characters out of 5855599
- 348344 words of memory out of 5000000
- 19811 multiletter control sequences out of 15000+600000
+ 2495 strings out of 478836
+ 37710 string characters out of 5855599
+ 355902 words of memory out of 5000000
+ 20127 multiletter control sequences out of 15000+600000
  427459 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,9n,62p,1215b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,9n,62p,1215b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on cv.pdf (3 pages, 104123 bytes).
+Output written on cv.pdf (3 pages, 105048 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream

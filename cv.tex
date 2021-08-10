@@ -23,8 +23,8 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[a4paper,8pt]{article} % Default font size and paper size
-\usepackage[a4paper, total={7in, 10in}]{geometry}
+\documentclass[a4paper,7pt]{article} % Default font size and paper size
+\usepackage[a4paper, total={7.5in, 10in}]{geometry}
 % \usepackage{fontspec} % For loading fonts
 % \defaultfontfeatures{Mapping=tex-text}
 % \setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
@@ -37,6 +37,8 @@
 \newcommand{\authors}[1]{{\small \fontfamily{cmss}\selectfont #1}}
 \newcommand{\conference}[1]{\textit{\small \fontfamily{cmss}\selectfont #1}}
 \newcommand{\info}[1]{{\footnotesize \fontfamily{cmss}\selectfont #1}}
+\usepackage{enumitem}
+
 % To reduce the height of the top margin uncomment: 
 %\addtolength{\voffset}{-2cm}
 
@@ -49,6 +51,9 @@
 \titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
 
 \begin{document}
+
+\setlist{leftmargin=5mm}
+
 
 \pagestyle{empty} % Removes page numbering
 
@@ -71,7 +76,7 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
 
 \item Ph.D. candidate in Computer Science, The University of Hong Kong. 2017-Current. \\
 \info{Supervisor: Dr. Heming Cui.}\\
-\info{Research interests: fault-tolerant systems, distributed databases, secure and privacy-preserving distributed systems, machine learning systems, and blockchains.}
+\info{Research interests: fault-tolerant systems, distributed databases, secure and privacy-preserving systems, machine learning systems, and blockchains.}
 
 \item Bachelor of Engineering in Computer Science, The University of Hong Kong. 2012-2017. \\
 \info{Major: Computer Science, Minor: Mathematics. GPA: 3.7}
@@ -89,16 +94,16 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
 \begin{itemize}
 
     \item \textbf{BIDL: A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks.} \\
-    \authors{\textbf{Xusheng Chen*}, Ji Qi*, Yunpeng Jiang, Jianyu Jiang, Tianxiang Shen, Shixiong Zhao, Sen Wang, Gong Zhang, Man Ho Au, Heming Cui.} \\
+    \authors{\textbf{Xusheng Chen*}, Ji Qi*, Jianyu Jiang, Tianxiang Shen, Shixiong Zhao, Sen Wang, Gong Zhang, Man Ho Au, Heming Cui.} \\
     \authors{\bf* Parallel First Author, equal contribution.}\\
-    \conference{Proceedings of the 28th ACM Symposium on Operating Systems Principles 2021 (\textbf{SOSP '21}, accepted).} \\
+    \conference{Proceedings of the 28th ACM Symposium on Operating Systems Principles 2021 (\textbf{SOSP '21}, acceptance rate: 54/348 = 15.5\%).} \\
     \info{Describes BIDL, a permissioned blockchain framework that leveraging a new shperded sequencer abstraction to speculatively parallelize the consensus phase and execution phase 
     of a blockchain system. BIDL features a new denylist protocol to achieve high throughput and low latecny even in the presence of 
     malicious participants.}\\
 
     \item \textbf{Eges: Efficient, DoS-resistant Consensus for Permissioned Blockchains.} \\
     \authors{\textbf{Xusheng Chen}, Shixiong Zhao, Ji Qi,  Jianyu Jiang, Haoze Song, Cheng Wang, Tsz On Li, T.-H. Hubert Chan, Fengwei Zhang, Xiapu Luo, Sen Wang, Gong Zhang, Heming Cui.} \\
-    \conference{The 39th IFIP WG 7.3 International Symposium on Computer Performance, Modeling, Measurements and Evaluation 2021 ({\bf Performance 2021}, accepted).} \\
+    \conference{The 39th IFIP WG 7.3 International Symposium on Computer Performance, Modeling, Measurements and Evaluation 2021 ({\bf Performance 2021}, acceptance rate: 27/81 = 32.9\%).} \\
     \info{Describes Eges, an SGX-powered distriburted consensus protocol for large-scale blockchains. Eges's new stealth consensus committee abstraction can rotate and reach consensus securely, stealthly and efficiently. Among consensus protocols for permissioned blockchains, Eges is the first protocol that can ensure both safety and good performance against tough DOS attacks, including targetting attacks on consensus nodes and network partition attacks} \\
 
 
@@ -110,7 +115,7 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
 
     \item \textbf{DAST: Achieving Low Tail-latency and High Scalability for Serializable Transactions in Edge Computing} \\
     \authors{\textbf{Xusheng Chen}, Haoze Song, Jianyu Jiang, Chaoyi Ruan, Cheng Li, Seng Wang, Gong Zhang, Reynold Cheng, Heming Cui.} \\
-    \conference{Proceedings of the European Conference on Computer Systems 2021 (\textbf{EuroSys '21})} \\
+    \conference{Proceedings of the European Conference on Computer Systems 2021 (\textbf{EuroSys '21}, acceptance rate: 38/181 = 20.9\%)} \\
     \info{Describes DAST, a fault-tolerant database deployed across
      globally distributed edge computing servers. DAST is the first
      geo-distributed database that guarantees serializability, low
@@ -119,7 +124,7 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
 
     \item \textbf{HAMS: High Availability for Distributed Machine Learning Service Graphs.} \\ 
     \authors{\textbf{Xusheng Chen*}, Shixiong Zhao*, Cheng Wang, Fanxin Li, Ji Qi, Heming Cui, Cheng Li, Sen Wang.}\\
-    \conference{Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks (\textbf{DSN '20}).}\\
+    \conference{Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks (\textbf{DSN '20}, acceptance rate: 48/285 = 16.8\%).}\\
     \authors{\bf* Parallel first author, euqal contribution.}\\
     \info{Describes HAMS, an efficient fault-tolerant system for a distributed
     deployment graph consisting of machine learning serving models (some are
@@ -141,7 +146,7 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
     \item \textbf{UPA: An Automated, Accurate and Efficient Differentially Private Big-data Mining System.} \\ 
     \authors{Tzs On Li, Jianyu Jiang, Ji Qi, Chi Chiu So, Jiacheng Ma, \textbf{Xusheng Chen}, Tianxiang Shen, Heming Cui, Yuexuan Wang, Peng Wang.} \\
     \conference{Proceedings of the 50th IEEE/IFIP International Conference on
-    Dependable Systems and Networks (\textbf{DSN '20}).}\\ 
+    Dependable Systems and Networks (\textbf{DSN '20}, acceptance rate: 48/285 = 16.8\%).}\\ 
     \info{Describes UPA, the first automated, efficient, and precise
     differentially private big-data mining system that can preserve individual
     privacy while supporting general Spark big-data queries.} \\
@@ -149,7 +154,7 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
     \item \textbf{Uranus: Simple, Efficient SGX Programming and Its Applications.} \\
     \authors{Jianyu Jiang, \textbf{Xusheng Chen}, Tzs On Li, Cheng Wang, Tianxiang Shen, Shixiong Zhao, Heming Cui, Cho-Li Wang, Fengwei Zhang.} \\
     \conference{Proceedings of the 15th ACM ASIA Conference on Computer and
-    Communications Security (\textbf{ASIACCS '20}).} \\
+    Communications Security (\textbf{ASIACCS '20}, acceptance rate: 67/308 = 21.8\%).} \\
     \info{Describes Uranus, the first SGX-compatible and Spark-compatible secure
     big-data computing system that can practically support typical big-data
     datasets with our new big-data aware Java memory reuse protocols.} \\
@@ -157,7 +162,7 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
     \item \textbf{Fulva: Efficient Live Migration for In-memory Key-Value Stores with Zero Downtime.} \\
     \authors{Jiewen Hai, Cheng Wang, \textbf{Xusheng Chen}, Tsz On Li, Heming Cui.} \\ 
     \conference{Proceedings of the 38th International Symposium on Reliable
-    Distributed Systems (\textbf{SRDS '19}).} \\
+    Distributed Systems (\textbf{SRDS '19}, acceptance rate: 31/117 = 26.5\%).} \\
     \info{Describes Fulva, an in-memory key-value store migration
     system that can almost pertain the store's normal-case performance
     with no downtime during migration.}\\
@@ -165,23 +170,23 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
     \item \textbf{PLOVER: Fast, Multi-core Scalable Virtual Machine Fault-tolerance.}\\
     % \authors{Cheng Wang, \textbf{Xusheng Chen}, Weiwei Jia, Haoran Qiu, Boxuan Li, Shixiong Zhao, Heming Cui.} \\
     \authors{\textbf{Xusheng Chen*}, Cheng Wang*, Weiwei Jia, Haoran Qiu, Boxuan Li, Shixiong Zhao, Heming Cui.} \\
-    \conference{Proceedings of The 15th USENIX Symposium on Networked Systems Design and Implementation 2018 (\textbf{NSDI '18}).}\\
+    \conference{Proceedings of The 15th USENIX Symposium on Networked Systems Design and Implementation 2018 (\textbf{NSDI '18}, acceptance rate: 40/159 = 15.4\%).}\\
     \authors{\textbf{*Parallel First Author, equal contribution.}} \\
     \info{Describes PLOVER, a multi-core scalable VM fault-tolerance system built on the Virtualized State Machine Replication (VSMR) concept.} \\
 
     \item \textbf{A Fast, General Storage Replication Protocol for Active-Active Virtual Machine Fault Tolerance.} \\
     \authors{Cheng Wang, \textbf{Xusheng Chen}, Zixu Wang, Youwei Zhu, Heming Cui.} \\
-    \conference{Proceedings of the IEEE 23rd International Conference on Parallel and Distributed Systems (\textbf{ICPADS '18}), 2017.}\\
+    \conference{Proceedings of the IEEE 23rd International Conference on Parallel and Distributed Systems (\textbf{ICPADS '18}).}\\
     \info{Describes Gannet, a replication protocol for efficiently replicating virtual machines.} \\
 
     \item \textbf{Effectively Mitigating I/O Inactivity in vCPU Scheduling.} \\
     \authors{Weiwei Jia, Cheng Wang, \textbf{Xusheng Chen}, Jianchen Shan, Xiaowei Shang, Heming Cui, Xiaoning Ding, Luwei Cheng, F.C.M. Lau, Yuexuan Wang, Yuangang Wang.} \\
-    \conference{Proceedings of the 2018 USENIX Annual Technical Conference (\textbf{ATC '18}), 2018.} \\
+    \conference{Proceedings of the 2018 USENIX Annual Technical Conference (\textbf{ATC '18}, acceptance rate: 76/378 = 20.1\%}) \\
     \info{Describes vMigrator, a lightweight, easy to use tool that can effectively mitigate I/O inactivity in vCPU scheduling, greatly improving I/O performance in VMs.}\\
 
     \item \textbf{APUS: Fast and Scalable PAXOS on RDMA.}\\
     \authors{Cheng Wang, Jianyu Jiang, \textbf{Xusheng Chen}, Ning Yi, Heming Cui.}\\
-    \conference{Proceedings of the ACM Symposium on Cloud Computing (\textbf{SoCC '17}), 2017.}\\
+    \conference{Proceedings of the ACM Symposium on Cloud Computing (\textbf{SoCC '17}, acceptance rate: 48/203 = 23.6\%.})\\
     \info{Describes APUS, a fast Paxos protocol and its runtime system using fast RDMA features.} \\
 
     
@@ -232,6 +237,7 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
 
 \section{Others}
 \begin{itemize}
+\item AE Committee member for \textbf{SOSP '21}.
 \item Reviewer for IEEE Transactions on Dependable and Secure Computing (\textbf{TDSC' 20}).
 \item Lee Shaw Kee Scholarships, 2014.
 \item Three times Deans Honours List, 2014-2015, 2015-2016, 2016-2017. 
