@@ -1,0 +1,357 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,7pt]{article} % Default font size and paper size
+\usepackage[a4paper, total={7.5in, 10in}]{geometry}
+% \usepackage{fontspec} % For loading fonts
+% \defaultfontfeatures{Mapping=tex-text}
+% \setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+% \usepackage{xunicode}
+% \usepackage{xltxtra}
+\usepackage{url}
+\usepackage{parskip} % Formatting packages
+\usepackage{mathptmx}
+\newcommand{\authors}[1]{{\small \fontfamily{cmss}\selectfont #1}}
+\newcommand{\conference}[1]{\textit{\small \fontfamily{cmss}\selectfont #1}}
+\newcommand{\info}[1]{{\footnotesize \fontfamily{cmss}\selectfont #1}}
+\usepackage{enumitem}
+
+% To reduce the height of the top margin uncomment: 
+%\addtolength{\voffset}{-2cm}
+
+% \usepackage{hyperref} % Required for adding links	and customizing them
+% % \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+% \hypersetup{colorlinks,breaklinks,urlcolor=blue,linkcolor=blue} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\setlist{leftmargin=5mm}
+
+
+\pagestyle{empty} % Removes page numbering
+
+\par{\centering{\Huge Xusheng \textsc{Chen}}\bigskip\par} % Your name
+
+\begin{table}[!h]
+% \setlength{\tabcoljep}{2em} 
+\small
+\begin{tabular}{p{12cm}r}
+Room 312  & \textbf{Phone:} (+852) 92390400 \\
+Chow Yei Ching Building & (+86) 14715487800 \\
+The University of Hong Kong       &  \textbf{Email:} xschen@cs.hku.hk    \\
+Pokfulam, Hong Kong Island                         &   michael.xschen@gmail.com\\
+Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$xschen
+\end{tabular}
+\end{table}
+\section{Education}
+
+\begin{itemize}
+
+\item Ph.D. candidate in Computer Science, The University of Hong Kong. 2017-Current. \\
+\info{Supervisor: Dr. Heming Cui.}\\
+\info{Research interests: fault-tolerant systems, distributed databases, secure and privacy-preserving systems, machine learning systems, and blockchains.}
+
+\item Bachelor of Engineering in Computer Science, The University of Hong Kong. 2012-2017. \\
+\info{Major: Computer Science, Minor: Mathematics. GPA: 3.7}
+
+\item Exchange student at University of California, San Diego, USA. Jan-Jun, 2015.  \\
+\info{Major: Computer Science and Engineering, GPA: 4.0 }
+%\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams} 
+
+
+\end{itemize}
+
+\section{Publications (in Reverse-chronological Order)}
+
+
+\begin{itemize}
+
+    \item {BIDL: A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks.} \\
+    \authors{Ji Qi*, \textbf{Xusheng Chen*}, Jianyu Jiang, Tianxiang Shen, Shixiong Zhao, Sen Wang, Gong Zhang, Man Ho Au, Heming Cui.} \\
+    \authors{\bf* Equal contribution.}\\
+    \conference{Proceedings of the 28th ACM Symposium on Operating Systems Principles 2021 (\textbf{SOSP '21}, acceptance rate: 54/348 = 15.5\%).} \\
+    \info{Describes BIDL, a permissioned blockchain framework that leveraging a new shperded sequencer abstraction to speculatively parallelize the consensus phase and execution phase 
+    of a blockchain system. BIDL features a new denylist protocol to achieve high throughput and low latecny even in the presence of 
+    malicious participants.}\\
+
+    \item {Eges: Efficient, DoS-resistant Consensus for Permissioned Blockchains.} \\
+    \authors{\textbf{Xusheng Chen}, Shixiong Zhao, Ji Qi,  Jianyu Jiang, Haoze Song, Cheng Wang, Tsz On Li, T.-H. Hubert Chan, Fengwei Zhang, Xiapu Luo, Sen Wang, Gong Zhang, Heming Cui.} \\
+    \conference{The 39th IFIP WG 7.3 International Symposium on Computer Performance, Modeling, Measurements and Evaluation 2021 ({\bf Performance 2021}, acceptance rate: 27/81 = 32.9\%).} \\
+    \info{Describes Eges, an SGX-powered distriburted consensus protocol for large-scale blockchains. Eges's new stealth consensus committee abstraction can rotate and reach consensus securely, stealthly and efficiently. Among consensus protocols for permissioned blockchains, Eges is the first protocol that can ensure both safety and good performance against tough DOS attacks, including targetting attacks on consensus nodes and network partition attacks} \\
+
+
+    \item {vPIPE: A Virtualized Acceleration System for Achieving Efficient and Scalable Pipeline Parallel DNN Training.} \\
+    \authors{Shixiong Zhao, Fanxin Li, \textbf{Xusheng Chen}, Xiuxian Guan, Jianyu Jiang, Dong Huang, Yuhao Qing, Sen Wang, Peng Wang, Gong Zhang, Cheng Li, Ping Luo, Heming Cui.} \\
+    \conference{IEEE Transactions on Parallel and Distributed Systems 2021 \textbf{(TPDS '21)}.}  \\
+    \info{Describes vPipe, a general pipepline parallel training system for big AI models (e.g., GPT and GNMT). vPipe tackles a severe load imbalance problem among the multi-GPU pipeline stages caused by inherent tensors accumulation in former stages, which can greatly downgrade training performance. vPipe's throughput and effective GPU ALU utilization are higher than existing premier pipepline parallel training systems (e.g., GPipe and Pipedream). vPipe is also the first pipeline parallel traing system that supports NAS training.}\\
+
+
+    \item {DAST: Achieving Low Tail-latency and High Scalability for Serializable Transactions in Edge Computing} \\
+    \authors{\textbf{Xusheng Chen}, Haoze Song, Jianyu Jiang, Chaoyi Ruan, Cheng Li, Seng Wang, Gong Zhang, Reynold Cheng, Heming Cui.} \\
+    \conference{Proceedings of the European Conference on Computer Systems 2021 (\textbf{EuroSys '21}, acceptance rate: 38/181 = 20.9\%)} \\
+    \info{Describes DAST, a fault-tolerant database deployed across
+     globally distributed edge computing servers. DAST is the first
+     geo-distributed database that guarantees serializability, low
+     tail-latency, and horizontal scalability.} \\
+
+
+    \item {HAMS: High Availability for Distributed Machine Learning Service Graphs.} \\ 
+    \authors{Shixiong Zhao*, \textbf{Xusheng Chen*}, Cheng Wang, Fanxin Li, Ji Qi, Heming Cui, Cheng Li, Sen Wang.}\\
+    \authors{\bf *Equal contribution.}\\
+    \conference{Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks (\textbf{DSN '20}, acceptance rate: 48/285 = 16.8\%).}\\
+    \info{Describes HAMS, an efficient fault-tolerant system for a distributed
+    deployment graph consisting of machine learning serving models (some are
+    stateful) with little performance overhead. HAMS is the first system that
+    can correctly replicate the non-determinism caused by GPU threads on running
+    AI serving models.} \\
+  
+
+    \item {DAENet: Making Strong Anonymity Scale in a Fully Decentralized Network.} \\ 
+    \authors{Tianxiang Shen, Jianyu Jiang, Yunpeng Jiang, \textbf{Xusheng Chen}, Ji Qi, Shixiong Zhao, Fengwei Zhang, Xiapu Luo, Heming Cui}\\
+    \conference{IEEE Transactions on Dependable and Secure Computing 2020 (\textbf{TDSC '20}).}\\
+    \info{Describes DAENet, an SGX-powered secure communication system
+    that can provide strong anonymity (e.g., hiding communication
+    endpoints and traffic routes) and ensure reasonable communication
+    efficiency even on packet dropping and DOS attacking scenarios.
+    DAENet's strong anonymity and efficiency are scalable on
+    Internet.} \\
+
+    \item {UPA: An Automated, Accurate and Efficient Differentially Private Big-data Mining System.} \\ 
+    \authors{Tzs On Li, Jianyu Jiang, Ji Qi, Chi Chiu So, Jiacheng Ma, \textbf{Xusheng Chen}, Tianxiang Shen, Heming Cui, Yuexuan Wang, Peng Wang.} \\
+    \conference{Proceedings of the 50th IEEE/IFIP International Conference on
+    Dependable Systems and Networks (\textbf{DSN '20}, acceptance rate: 48/285 = 16.8\%).}\\ 
+    \info{Describes UPA, the first automated, efficient, and precise
+    differentially private big-data mining system that can preserve individual
+    privacy while supporting general Spark big-data queries.} \\
+
+    \item {Uranus: Simple, Efficient SGX Programming and Its Applications.} \\
+    \authors{Jianyu Jiang, \textbf{Xusheng Chen}, Tzs On Li, Cheng Wang, Tianxiang Shen, Shixiong Zhao, Heming Cui, Cho-Li Wang, Fengwei Zhang.} \\
+    \conference{Proceedings of the 15th ACM ASIA Conference on Computer and
+    Communications Security (\textbf{ASIACCS '20}, acceptance rate: 67/308 = 21.8\%).} \\
+    \info{Describes Uranus, the first SGX-compatible and Spark-compatible secure
+    big-data computing system that can practically support typical big-data
+    datasets with our new big-data aware Java memory reuse protocols.} \\
+
+    \item {Fulva: Efficient Live Migration for In-memory Key-Value Stores with Zero Downtime.} \\
+    \authors{Jiewen Hai, Cheng Wang, \textbf{Xusheng Chen}, Tsz On Li, Heming Cui.} \\ 
+    \conference{Proceedings of the 38th International Symposium on Reliable
+    Distributed Systems (\textbf{SRDS '19}, acceptance rate: 31/117 = 26.5\%).} \\
+    \info{Describes Fulva, an in-memory key-value store migration
+    system that can almost pertain the store's normal-case performance
+    with no downtime during migration.}\\
+
+    \item {PLOVER: Fast, Multi-core Scalable Virtual Machine Fault-tolerance.}\\
+    % \authors{Cheng Wang, \textbf{Xusheng Chen}, Weiwei Jia, Haoran Qiu, Boxuan Li, Shixiong Zhao, Heming Cui.} \\
+    \authors{Cheng Wang*, \textbf{Xusheng Chen*}, Weiwei Jia, Haoran Qiu, Boxuan Li, Shixiong Zhao, Heming Cui.} \\
+    \conference{Proceedings of The 15th USENIX Symposium on Networked Systems Design and Implementation 2018 (\textbf{NSDI '18}, acceptance rate: 40/159 = 15.4\%).}\\
+    \authors{\textbf{*Equal contribution.}} \\
+    \info{Describes PLOVER, a multi-core scalable VM fault-tolerance system built on the Virtualized State Machine Replication (VSMR) concept.} \\
+
+    \item {A Fast, General Storage Replication Protocol for Active-Active Virtual Machine Fault Tolerance.} \\
+    \authors{Cheng Wang, \textbf{Xusheng Chen}, Zixu Wang, Youwei Zhu, Heming Cui.} \\
+    \conference{Proceedings of the IEEE 23rd International Conference on Parallel and Distributed Systems (\textbf{ICPADS '18}).}\\
+    \info{Describes Gannet, a replication protocol for efficiently replicating virtual machines.} \\
+
+    \item {Effectively Mitigating I/O Inactivity in vCPU Scheduling.} \\
+    \authors{Weiwei Jia, Cheng Wang, \textbf{Xusheng Chen}, Jianchen Shan, Xiaowei Shang, Heming Cui, Xiaoning Ding, Luwei Cheng, F.C.M. Lau, Yuexuan Wang, Yuangang Wang.} \\
+    \conference{Proceedings of the 2018 USENIX Annual Technical Conference (\textbf{ATC '18}, acceptance rate: 76/378 = 20.1\%}) \\
+    \info{Describes vMigrator, a lightweight, easy to use tool that can effectively mitigate I/O inactivity in vCPU scheduling, greatly improving I/O performance in VMs.}\\
+
+    \item {APUS: Fast and Scalable PAXOS on RDMA.}\\
+    \authors{Cheng Wang, Jianyu Jiang, \textbf{Xusheng Chen}, Ning Yi, Heming Cui.}\\
+    \conference{Proceedings of the ACM Symposium on Cloud Computing (\textbf{SoCC '17}, acceptance rate: 48/203 = 23.6\%.})\\
+    \info{Describes APUS, a fast Paxos protocol and its runtime system using fast RDMA features.} \\
+
+    
+    \item {SLARM: SLA-aware, Reliable and Efficient Transaction Dissemination for Permissioned Blockchains.} \\
+    \authors{Ji Qi, Tianxiang Shen, Yunpeng Jiang, \textbf{Xusheng Chen}, Jianyu Jiang, Xiapu Luo, Fengwei Zhang, Sen Wang, Heming Cui.} \\
+    \conference{Submitted to CoNext '21, under review.} \\
+\end{itemize}
+
+\section{Work Experience}
+
+\begin{itemize}
+    \item Research intern at Microsoft Research, Asia. Jun 2021 - Now.  
+
+    \item Research assistant at Center of Cloud Computing \& Big Data, Lenovo, Hong Kong. Dec 2015 - Jul 2016. 
+    % \info{Developed a container/cluster management platform, based on Docker and
+    % written in Golang. User can apply for a n-node cluster through the Web-UI, with
+    % each node running as a docker container on the backend machines, together with
+    % Image management and status monitor features.} \\
+    \item Student Trainee at Global Banking and Markets, HSBC, Hong Kong. Aug 2015 - Nov 2015. 
+    % \info{Helped project managers to manage the end-to-end delivery of "Change the
+    % Bank" initiatives for business--from the creation of business cases, to the post
+    % implementation cases, mainly the complicated project involving several
+    % departments of the bank.}\\
+    \item Summer Intern at Laboratory of Complex Systems and Intelligence Science,
+    Institute of Automation, Chinese Academy of Science, Beijing. 
+    June 2014 - Aug 2014.
+    % \info{Developed a front-end interface for an automatic remote sensor network and agricultural internet of things.}
+\end{itemize}
+    
+
+
+\section{Technology Transfer (Patents)}
+\begin{itemize}
+    \item A high-performance DNN training system with efficient and scalable pipelined parallelism on GPUs.
+    \item A system in achieving low tail-latency and high scalability for serializable transactions in edge computing.
+    \item A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks.
+    \item An Automated, Accurate and Efficient Differentially Private Big-data Mining System.
+    \item A decentralized, secure and reliable network communication system via SGX.
+    \item An Efficient, Secure Big-data Processing and Programming System based on Trusted Execution Environment.
+    \item An Efficient, DoS Resistant Consensus Protocol for Permissioned Blockchains.
+    \item A Distributed Fault-Tolerance Storage System via Virtualized State Machine Replication.
+
+\end{itemize}
+
+
+
+
+
+\section{Others}
+\begin{itemize}
+\item AE Committee member for \textbf{SOSP '21}.
+\item Reviewer for IEEE Transactions on Dependable and Secure Computing (\textbf{TDSC' 20}).
+\item Lee Shaw Kee Scholarships, 2014.
+\item Three times Deans Honours List, 2014-2015, 2015-2016, 2016-2017. 
+\item Two times project co-leader of Huawei Innovation Research Programs (HIRP), 2017-2018, 2018-2020.
+\item Two times champion in the university basketball league.
+\end{itemize}
+
+
+
+% \section{Languages}
+
+% \begin{tabular}{rl}
+% \textsc{English:} & Fluent\\
+
+% \textsc{Chinese Mandarin:} & Mothertongue\\
+
+% \textsc{Chinese Cantonese:} & Basic Knowledge\\
+% \end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+% \section{Computer Skills}
+
+% \begin{tabular}{rl}
+% Basic Knowledge: & php, Haskell, Latex, JSP, MS Office, MS Project, Hadoop\\
+
+% Intermediate Knowledge: &  C/C++, Java, Golang, my\textsc{sql}, Linux, HTML\&CSS\&Javascript, MATLAB, OpenGL  \\
+% \end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+% \section{Interests and Activities}
+
+% Interested in Technology and Programming. \\ \\
+% Joined the basketball team for mainland China students and won the champion among the 11 Universities in Hong Kong for 3 times (2013, 2015, 2016).\\ \\
+% Helper in organizing the Orientation Camp for freshman in 2013. 
+
+% %----------------------------------------------------------------------------------------
+
+% % \newpage
+
+% %----------------------------------------------------------------------------------------
+% %	GRADE TABLES
+% %----------------------------------------------------------------------------------------
+
+% \par{\centering\Large \hypertarget{grds}{Bachelor of Engineering Grades}\par}\large{\centering (Major in Computer Science, Minor in Mathematics)\par}\normalsize
+
+
+% \begin{tabular}{lll}
+% \multicolumn{1}{c}{\textsc{Course Code}} & \textsc{Course Title}&\textsc{Grade}\\ \hline
+% \textbf{Computer Science Courses} \\
+% ENGG 1202 & Introduction to Computer Sciences & $A^+$\\
+% ENGG 1111 &  Computer Programming and Applications with C++ &$A^+$\\
+% COMP 2119 & Introduction to Data Structures and Algorithms & $A^+$\\
+% COMP 2120 & Introduction to Computer Organization & $A^+$\\
+% COMP 2121 & Discrete Mathematics & $A^+$\\
+% COMP 2123 & Programming Technology and Tools & $A$\\
+% COMP 2396 & Objected Oriented Programming and Java &$A^-$\\
+% COMP 3230 & Principles of Operating Systems & $A^+$\\
+% COMP 3270 & Artificial Intelligence & $A$\\
+% COMP 3278 & Introduction to Database Management &$A$\\
+% COMP 3297 & Introduction to Software Engineering & $A$\\
+% \\
+% \textbf{Mathematics Courses} \\ 
+% MATH 1851 & Calculus and Ordinary Differential Equations & $A^+$\\
+% MATH 1853 & Linear Algebra, Probability and Statistics & $A^+$\\
+% MATH 2101 & Linear Algebra I & $A$\\
+% MATH 2211 & Multivariable Calculus & $A$\\
+% MATH 3301 & Algebra I & $A$\\
+% \\
+% \textbf{Other Courses} \\
+% CCCH 9004 & Ideas and Images of the West in Late Imperial China & $B^-$\\
+% CCGL 9011 & Media in the Age of Globalization & $B^+$\\
+% CCHU 9021 & Critical Thinking in Contemporary Society & $B$\\
+% CCHU 9022 & Journey into Madness: Conceptions of Mental Health and Mental Illness & $B^-$\\
+% CCST 9017 & Hidden Order in Daily Life: A Mathematical Perspective  & $A$\\
+% CCST 9047 & The Age of Big Data & $B^+$\\
+% CAES 1000 & Core University English & $C$ \\
+% CUND 9003 & Cantonese for Non-Cantonese Speaking Students & $B$\\
+% ENGG 1201 & Introduction to Civil Engineering & $C^+$\\
+% ENGG 1203 & Introduction to Electric and Electrical Engineering & $A$\\
+% PHYS 1050 & Physics for Engineering Students & $A^+$\\
+% & &\\\cline{2-3}
+% &\textbf\textsc{GPA}&\textbf{3.73}
+% \end{tabular}
+
+% \bigskip
+
+% %------------------------------------------------
+
+% \bigskip
+
+% \par{\centering\Large \hypertarget{grds_usc}{Exchange Program at \textsc{University of California, San Diego}}\par}\normalsize
+
+% \begin{center}
+% \begin{tabular}{lll}
+% \multicolumn{1}{c}{\textsc{Course Code}} & \textsc{Course Title} & \textsc{Grade}\\ 
+% \hline
+% CSE 101 & Design and Analysis of Algorithm &$A^+$\\
+% CSE 105 & Introduction to Theory of Computation &$A^+$\\
+% CSE 123 & Computer Networks & $A$\\
+% CSE 152 & Introduction to Computer Vision & $A^+$\\
+% CSE 167 & Computer Graphics & $A^+$\\
+% MATH 171 & Introduction to Numerical Optimization: Linear Programming &$A^+$\\
+
+% & &\\\cline{2-3}
+% & \textsc{Gpa} & \textbf{4.0}
+% \end{tabular}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
