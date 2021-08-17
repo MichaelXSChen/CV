@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1629191236 "/home/xschen/CV/cv_equal.tex" "/home/xschen/CV/cv_equal.pdf" "cv_equal" 1629191236
+["pdflatex"] 1629191618 "/home/xschen/CV/cv_equal.tex" "/home/xschen/CV/cv_equal.pdf" "cv_equal" 1629191619
   "/etc/texmf/web2c/texmf.cnf" 1628826839 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/xschen/CV/cv_equal.aux" 1629191236 542 ffc9503c36d19f0619c8f5047597861a ""
-  "/home/xschen/CV/cv_equal.tex" 1629191236 19326 7a857245fa9d380f40d8559b3bfa1c8d ""
+  "/home/xschen/CV/cv_equal.aux" 1629191618 542 ffc9503c36d19f0619c8f5047597861a ""
+  "/home/xschen/CV/cv_equal.tex" 1629191619 19326 c8678537cabbb6fc7f5553e9533d7b55 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -61,11 +61,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1628826877 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1628826894 8255886 8a16cda1053f4701bda95f7ff1311c77 ""
-  "cv_equal.aux" 1629191236 542 ffc9503c36d19f0619c8f5047597861a "pdflatex"
-  "cv_equal.tex" 1629191236 19326 7a857245fa9d380f40d8559b3bfa1c8d ""
+  "cv_equal.aux" 1629191618 542 ffc9503c36d19f0619c8f5047597861a "pdflatex"
+  "cv_equal.tex" 1629191619 19326 c8678537cabbb6fc7f5553e9533d7b55 ""
   (generated)
   "/home/xschen/CV/cv_equal.pdf"
-  "cv_equal.pdf"
-  "cv_equal.aux"
   "cv_equal.log"
+  "cv_equal.aux"
+  "cv_equal.pdf"
   "/home/xschen/CV/cv_equal.log"
