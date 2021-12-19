@@ -32,6 +32,7 @@
 % \usepackage{xunicode}
 % \usepackage{xltxtra}
 \usepackage{url}
+\usepackage{color}
 \usepackage{parskip} % Formatting packages
 \usepackage{mathptmx}
 \newcommand{\authors}[1]{{\small \fontfamily{cmss}\selectfont #1}}
@@ -88,10 +89,10 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
 
 \end{itemize}
 
-\section{Publications (in Reverse-chronological Order)}
+\section{Publications}
 
 
-\begin{itemize}
+\begin{enumerate}
 
     \item {BIDL: A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks.} \\
     \authors{\textbf{Xusheng Chen*}, Ji Qi*, Jianyu Jiang, Tianxiang Shen, Shixiong Zhao, Sen Wang, Gong Zhang, Man Ho Au, Heming Cui.} \\
@@ -107,12 +108,6 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
     \info{Describes Eges, an SGX-powered distriburted consensus protocol for large-scale blockchains. Eges's new stealth consensus committee abstraction can rotate and reach consensus securely, stealthly and efficiently. Among consensus protocols for permissioned blockchains, Eges is the first protocol that can ensure both safety and good performance against tough DOS attacks, including targetting attacks on consensus nodes and network partition attacks} \\
 
 
-    \item {vPIPE: A Virtualized Acceleration System for Achieving Efficient and Scalable Pipeline Parallel DNN Training.} \\
-    \authors{Shixiong Zhao, Fanxin Li, \textbf{Xusheng Chen}, Xiuxian Guan, Jianyu Jiang, Dong Huang, Yuhao Qing, Sen Wang, Peng Wang, Gong Zhang, Cheng Li, Ping Luo, Heming Cui.} \\
-    \conference{IEEE Transactions on Parallel and Distributed Systems 2021 \textbf{(TPDS '21)}.}  \\
-    \info{Describes vPipe, a general pipepline parallel training system for big AI models (e.g., GPT and GNMT). vPipe tackles a severe load imbalance problem among the multi-GPU pipeline stages caused by inherent tensors accumulation in former stages, which can greatly downgrade training performance. vPipe's throughput and effective GPU ALU utilization are higher than existing premier pipepline parallel training systems (e.g., GPipe and Pipedream). vPipe is also the first pipeline parallel traing system that supports NAS training.}\\
-
-
     \item {DAST: Achieving Low Tail-latency and High Scalability for Serializable Transactions in Edge Computing} \\
     \authors{\textbf{Xusheng Chen}, Haoze Song, Jianyu Jiang, Chaoyi Ruan, Cheng Li, Seng Wang, Gong Zhang, Reynold Cheng, Heming Cui.} \\
     \conference{Proceedings of the European Conference on Computer Systems 2021 (\textbf{EuroSys '21}, acceptance rate: 38/181 = 20.9\%)} \\
@@ -120,6 +115,19 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
      globally distributed edge computing servers. DAST is the first
      geo-distributed database that guarantees serializability, low
      tail-latency, and horizontal scalability.} \\
+
+
+    \item {NASPipe: High Performance and Reproducible Pipeline Parallel Supernet Training via Causal Synchronous Parallel} \\
+    \authors{Shixiong Zhao, Fanxin Li, \textbf{Xusheng Chen}, Tianxiang Shen, Li Chen Sen Wang, Gong Zhang, Cheng Li, Heming Cui}
+    \conference{The 2022 Conference on Architectural Support for Programming Languages and Operating Systems (\textbf{ASPLOS '22}, accepted)}
+    \info{Paper description TBD.} \\
+
+    \item {vPIPE: A Virtualized Acceleration System for Achieving Efficient and Scalable Pipeline Parallel DNN Training.} \\
+    \authors{Shixiong Zhao, Fanxin Li, \textbf{Xusheng Chen}, Xiuxian Guan, Jianyu Jiang, Dong Huang, Yuhao Qing, Sen Wang, Peng Wang, Gong Zhang, Cheng Li, Ping Luo, Heming Cui.} \\
+    \conference{IEEE Transactions on Parallel and Distributed Systems 2021 \textbf{(TPDS '21)}.}  \\
+    \info{Describes vPipe, a general pipepline parallel training system for big AI models (e.g., GPT and GNMT). vPipe tackles a severe load imbalance problem among the multi-GPU pipeline stages caused by inherent tensors accumulation in former stages, which can greatly downgrade training performance. vPipe's throughput and effective GPU ALU utilization are higher than existing premier pipepline parallel training systems (e.g., GPipe and Pipedream). vPipe is also the first pipeline parallel traing system that supports NAS training.}\\
+
+
 
 
     \item {HAMS: High Availability for Distributed Machine Learning Service Graphs.} \\ 
@@ -189,11 +197,49 @@ Hong Kong SAR                     & \textbf{Homepage:} http://i.cs.hku.hk/$\sim$
     \conference{Proceedings of the ACM Symposium on Cloud Computing (\textbf{SoCC '17}, acceptance rate: 48/203 = 23.6\%.})\\
     \info{Describes APUS, a fast Paxos protocol and its runtime system using fast RDMA features.} \\
 
-    
+   
+    {\color{blue} Below are my papers that are under review.}
+
+
+    \item{Achieving Strong Consistency, High Timeliness, and High Scalability for Geo-distributed HTAP}\\
+    \authors{\textbf{Xusheng Chen}, Haoze Song, Shixiong Zhao, Jianyu Jiang, Shengliang Deng, Sen Wang, Gong Zhang, Li Chen, Heming Cui}\\
+    \conference{Under review.} \\
+
     \item {SLARM: SLA-aware, Reliable and Efficient Transaction Dissemination for Permissioned Blockchains.} \\
     \authors{Ji Qi, Tianxiang Shen, Yunpeng Jiang, \textbf{Xusheng Chen}, Jianyu Jiang, Xiapu Luo, Fengwei Zhang, Sen Wang, Heming Cui.} \\
-    \conference{Submitted to CoNext '21, under review.} \\
-\end{itemize}
+    \conference{Under review.} \\
+
+    \item{Rethinking and Parallelizing Computation and Communication Tasks in the Training of Large DNN Models}\\
+    \authors{Fanxin Li, Shxiong Zhao, Haowen Pi, Yuhao Qing, \textbf{Xusheng Chen}, Sen Wang, Gong Zhang, Li Chen, Heming Cui}\\
+    \conference{Under review.} \\
+
+    \item{CRONUS: Fault-isolated, Secure and High-performance Heterogeneous Computing for Trusted Execution Environments}\\
+    \authors{Jianyu Jiang, Tianxiang Shen, Ji Qi, \textbf{Xusheng Chen}, Sen Wang, Gong Zhang, Li Chen, Xiapu Luo, Heming Cui}\\
+    \conference{Under review.} \\
+
+
+    \item{Themis: Automatic and Efficient Deep Learning System Testing with Strong Fault Detection Capability}\\
+    \authors{Dong Huang, TszOn Li, Jianyu Jiang, \textbf{Xusheng Chen}, Shixiong Zhao, Sen Wang, Gong Zhang, Li Chen, Heming Cui}\\
+    \conference{Under review.} \\
+
+    \item{SOTER: Guarding Black-box Inference Service for General Neural Networks at the Edge}\\
+    \authors{Tianxiang Shen, Ji Qi, Jianyu Jiang, \textbf{Xusheng Chen}, Shixiong Zhao, Shengliang Deng, Sen Wang, Gong Zhang, Li Chen, Xiapu Luo, Heming Cui}\\
+    \conference{Under review.} \\
+
+    \item{SPATN: Stealthy Poisoning Attacks against TEE-shielded Distributed Asynchronous DNN Training}\\
+    \authors{Jianyu Jiang, \textbf{Xusheng Chen}, TszOn Li, Shixiong Zhao, Tianxiang Shen, Sen Wang, Gong Zhang, Li Chen, Heming Cui}\\
+    \conference{Under review.} \\
+
+    \item{COORP: Satisfying Low-Latency and High-Throughput Requirements of Wireless Network for Coordinated Robotic Learning} \\
+    \authors{Shengliang Deng, Xiuxian Guan, Zekai Sun, Shixiong Zhao, Tianxiang Shen, 
+    \textbf{Xusheng Chen}, Tianyang Duan, Yuexuan Wang, Jia Pan, Yanjun Wu, Libo Zhang, Heming Cui} \\
+    \conference{Under review.} \\
+
+    \item{A Geography-Based P2P Overlay Network for Fast and Robust Blockchain Systems}\\
+    \authors{Haoran Qiu, Tao Ji, Shixiong Zhao, \textbf{Xusheng Chen}, Ji Qi, Sen Wang, Heming Cui} \\
+    \conference{Under review.} \\
+
+\end{enumerate}
 
 \section{Work Experience}
 
